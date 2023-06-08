@@ -5,5 +5,4 @@ export const Text = styled.Text`
   color: ${({ color }) => color || '#185BA3'};
   font-size: ${({ size }) => size ? `${size}px` : '16px'};
   opacity: ${({ opacity }) => opacity || 1};
-  text-align: center;
 `;

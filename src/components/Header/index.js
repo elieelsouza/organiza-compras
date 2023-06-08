@@ -9,6 +9,12 @@ export default function Header(){
             Organiza 
             <Text color="#FFFFFF" size={24} weight="700"> COMPRAS</Text>
         </Text>
+        <Image
+        style={{
+            width: 50, height: 50
+        }}
+        source={require('../../assets/images/carrinho-de-compras.png')}
+      />
     </Container>     
     );
 }
